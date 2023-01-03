@@ -12,24 +12,114 @@
     <nav>
         <a href="">CARA CARA</a>
         <ul>
-            <li>HOME</li>
-            <li>ABOUT</li>
-            <li>PRODUCT</li>
-            <li>CONTACT</li>
+            <li> <a href = "#home">HOME</a></li>
+            <li> <a href = #about>ABOUT</a></li>
+            <li> <a href = #product>PRODUCT</a></li>
+            <li> <a href = #contact>CONTACT</a></li>
         </ul>
     </nav>
+    <div>
+        <h3>CARA <img src="./week10webproj_repo/assets/icons8-pottery-96.png" alt= "tan vase icon"> CARA</h3>
+    </div>
+    <div> 
+        <input type = "text" id = "search" name = "search" vaule = "">
+        <span><strong> CART (0)</strong></span>
+     </div>
     </header>
     <main>
-        <section class="about us">
-            <img src="./assets/Vase_Dame_2048x2048.jpg" alt = "White vase with beads and white leafy flower in it.">
-            <img scr="./assets/Cylinder_unglazed3_2048x2048.jpg" alt = "White cylinder shaped vase with reeds">
-            <h1> ABOUT US</h1>
-            <p1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt. Facilisis mauris sit amet massa. Senectus et netus et malesuada fames ac turpis egestas maecenas. Odio aenean sed adipiscing diam donec adipiscing tristique risus nec. Sagittis id consectetur purus ut faucibus. Elit duis tristique sollicitudin nibh sit amet commodo.</p1>
-            <p2>Nulla porttitor massa id neque aliquam vestibulum morbi. Facilisi nullam vehicula ipsum a arcu cursus vitae congue. Nam libero justo laoreet sit amet cursus sit amet dictum. Tristique magna sit amet purus gravida quis. Velit euismod in pellentesque massa placerat. In ante metus dictum at tempor commodo. Libero nunc consequat interdum varius sit amet mattis. Egestas sed sed risus pretium quam vulputate dignissim. Diam phasellus vestibulum lorem sed risus. Cursus sit amet dictum sit amet justo donec enim.</p2>
-            <p3>Tincidunt praesent semper feugiat nibh sed. Vulputate mi sit amet mauris commodo quis imperdiet massa. Amet tellus cras adipiscing enim eu turpis egestas pretium aenean. Nullam ac tortor vitae purus.</p3>
+        <section id="home">
+            <div>
+                <strong>CERAMICS</strong><br>
+                <strong>CRAFTED BY</strong><br>
+                <strong>HAND...</strong>
+            </div>
+            <div>
+                <strong>...FROM THE</strong><br>
+                <strong>GROUND UP</strong>
+            </div>
         </section>
-        <section class="our products">
-            
+        <section id="about">
+            <h1> ABOUT US </h1>
+            <hr>
+            <img src="./week10webproj_repo/assets/Vase_Dame_2048x2048.jpg" alt = "White vase with beads and white leafy flower in it." height="130" width="80">
+            <img src="./week10webproj_repo/assets/Cylinder_unglazed3_2048x2048.jpg" alt = "White cylinder shaped vase with reeds" height=" 130" width="80">
+            <p1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt <br>
+                ut labore et dolore magna aliqua. Neque laoreet suspendisse interdum consectetur libero id <br>
+                faucibus nisl tincidunt. Facilisis mauris sit amet massa. Senectus et netus et malesuada fames <br>
+                ac turpis egestas maecenas. Odio aenean sed adipiscing diam donec adipiscing tristique <br>
+                risus nec. Sagittis id consectetur purus ut faucibus. Elit duis tristique sollicitudin nibh sit <br>
+                amet commodo.</p1> <br>
+                <br>
+            <p2>Nulla porttitor massa id neque aliquam <br>
+                vestibulum morbi. Facilisi nullam vehicula <br>
+                ipsum a arcu cursus vitae congue. Nam libero <br>
+                justo laoreet sit amet cursus sit amet dictum. <br>
+                Tristique magna sit amet purus gravida quis. <br>
+                Velit euismod in pellentesque massa placerat. <br>
+                In ante metus dictum at tempor commodo. <br>
+                Libero nunc consequat interdum varius sit <br>
+                amet mattis. Egestas sed sed risus pretium <br>
+                quam vulputate dignissim. Diam phasellus <br>
+                vestibulum lorem sed risus. Cursus sit amet <br>
+                dictum sit amet justo donec enim.</p2><br>
+                <br>
+            <p3>Tincidunt praesent semper feugiat nibh sed. <br>
+                Vulputate mi sit amet mauris commodo quis <br>
+                imperdiet massa. Amet tellus cras adipiscing <br>
+                enim eu turpis egestas pretium aenean. <br>
+                Nullam ac tortor vitae purus.</p3>
+        </section>
+        <section id="products">
+            <h2>OUR PRODUCTS</h2>
+            <hr>
+            <div class = "product_container">
+                <div class = "product">
+                    <a><img class = product_image src="./week10webproj_repo/assets/tom-crew-7HuTGlUfQSo-unsplash.jpg"></a>
+                    <br>
+                    <strong>MUNDO BOWLS</strong>
+                    <span>$48.00</span>
+                    <hr class = "hr_product">
+                    <p>Tincidunt praesent semper feugiat nibh 
+                        sed. Vulputate mi sit amet mauris 
+                        commodo quis imperdiet massa. Amet 
+                        tellus cras adipiscing enim eu turpis 
+                        egestas pretium aenean.</p>
+                    <a href = bowl.products.html>LEARN MORE</a>
+                    <span><button type = "button">ADD TO CART</button></span>
+                </div>
+                <div class = "product">
+                    <a><img class = product_image src="./week10webproj_repo/assets/oriento-maVIpNNtmlQ-unsplash.jpg"></a>
+                    <br>
+                    <strong>NATUREZA VASE</strong>
+                    <span>$37.00</span>
+                    <hr class = "hr_product">
+                    <p>
+                        Tincidunt praesent semper feugiat nibh 
+                        sed. Vulputate mi sit amet mauris 
+                        ommodo quis imperdiet massa. Amet 
+                        tellus cras adipiscing enim eu turpis 
+                        egestas pretium aenean. 
+                    </p>
+                    <a href = bowl.products.html>LEARN MORE</a>
+                    <span><button type = "button">ADD TO CART</button></span>
+                </div>
+                <div class = "product">
+                    <a><img class = product_image src="./week10webproj_repo/assets/tom-crew-bgIO-u4GEfI-unsplash.jpg"></a>
+                    <br>
+                    <strong>FEIRA BOWLS</strong>
+                    <span>$29.00</span>
+                    <hr class = "hr_product">
+                    <p>
+                        Tincidunt praesent semper feugiat nibh 
+                        sed. Vulputate mi sit amet mauris 
+                        commodo quis imperdiet massa. Amet 
+                        tellus cras adipiscing enim eu turpis 
+                        egestas pretium aenean.
+                    </p>
+                    <a href = bowl.products.html>LEARN MORE</a>
+                    <span><button type = "button">ADD TO CART</button></span>
+                </div>
+            </div>
 
         </section>
 
