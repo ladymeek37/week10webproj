@@ -5,23 +5,182 @@
     padding: 0;
     box-sizing: inherit;
 }
-
+body{
+    margin: 1rem auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 html {
     box-sizing:border-box;
     font-size: 62.5;
 }
+header{
+    padding:10px;
+    text-align: center;
+    
+}
+nav a{
+    text-decoration: none;
+    font-size: smaller;
+}
+nav ul{
+    list-style-type:none;
+    text-align: left;
+    top:20px;
+    left:80px;
+}
+nav li{
+    display: inline;
+    margin: .3rem;
+}
+.title{
+    letter-spacing:.75rem;
+    font-size: 20px;
+}
+.search_bar{
+    margin-right:5rem;
+    position: absolute;
+    font-size: smaller;
+    top:0;
+    right:0;
+}
+.top_line{
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+}
+.first-txt {
+    top: 50px;
+    left: 20px;
+    color: white;
+    letter-spacing: .25rem;
+    font-size: x-large;
+ }
+ .second-txt {
+   top: 50px;
+   color: white;
+   letter-spacing: .25rem;
+   font-size: x-large;
+   float:right;
+ }
 
+.home{
+    height: 490px;
+    width: 100%;
+    background-image: linear-gradient(to right, black, transparent, black), url(./assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg);
+    background-size: 100%;
+    padding: 0;
+    background-repeat: no-repeat;
+    margin: 0;
+
+}
+
+main section{
+    margin-top: 1rem;
+    padding: 2rem;
+}
+
+.content_titles{
+    padding:30px;
+    font-size: x-large;
+    text-align: left;
+    letter-spacing: .25rem;
+    position: absolute;
+}
+
+.content_hr{
+    border: 1.5px solid black;
+    width: 52%;
+    position: relative;
+    top: 80px;
+}
+.about_content{
+    position: relative;
+    bottom:-300px
+}
+.paragraph_one{
+    margin-right: 3rem;
+    position: relative;
+    top: -13rem;
+    right: 10rem;
+    }
+.paragraph_two{
+    position:relative;
+    top: -10rem;
+}
+.paragraph_three{
+    position:relative;
+}
+.left_photo{
+    display: flex;
+    align-items: center;
+    float: left;
+    margin-right: 3rem;
+}
+.right_photo{
+    float: right;
+    position: relative;
+    top: -250px;
+}
+
+.product_container{
+    justify-items:center;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 20px;
+    display: grid;
+    column-gap: 65px;
+    row-gap: 70px;
+}
+.product_title{
+    letter-spacing: .1rem;
+}
+.product_price{
+    float:right
+}
 .product_image{
+
     width: 275px;
     height: 240px;
 }
 
 .hr_product{
-    width: 30%;
+    width: 70%;
     border: 2px solid black;
 }
 
-.product_container{
-    display: grid;
-    grid-template-columns: 1fr,1fr,1fr;
+.add_to_cart_button{
+    background-color: #bf7631;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    float: right;
+}
+
+.learn_more{
+    color: #bf7631
+}
+
+footer{
+    background-color: #bf7631;
+    padding:10px;
+}
+ 
+.left_icons{
+    float: left;
+    text-align: left;
+}
+
+.right_icons{
+    float: right;
+    text-align: right;
+
+}
+
+.center_icon{
+    float: center;
+    text-align: center;
+}
+
+.copyright{
+    text-align:center
+    
 }

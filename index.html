@@ -10,88 +10,115 @@
 <body>
     <header>
     <nav>
-        <a href="">CARA CARA</a>
         <ul>
             <li> <a href = "#home">HOME</a></li>
             <li> <a href = #about>ABOUT</a></li>
-            <li> <a href = #product>PRODUCT</a></li>
+            <li> <a href = #product>PRODUCTS</a></li>
             <li> <a href = #contact>CONTACT</a></li>
         </ul>
     </nav>
-    <div>
-        <h3>CARA <img src="./week10webproj_repo/assets/icons8-pottery-96.png" alt= "tan vase icon"> CARA</h3>
+    <div class="title">
+        <p>CARA <img src="./assets/icons8-pottery-96.png" alt= "tan vase icon" height="35" width="35"> CARA</p>
     </div>
-    <div> 
+    <div class="search_bar"> 
         <input type = "text" id = "search" name = "search" vaule = "">
-        <span><strong> CART (0)</strong></span>
+        <img class = "search_icon" src="./assets/1200px-Google_Magnifying_Glass.svg.png" height = "30" width = "30">
+        <span>CART (0)</span>
      </div>
+     <hr class="top_line">
     </header>
     <main>
-        <section id="home">
-            <div>
-                <strong>CERAMICS</strong><br>
-                <strong>CRAFTED BY</strong><br>
-                <strong>HAND...</strong>
-            </div>
-            <div>
-                <strong>...FROM THE</strong><br>
-                <strong>GROUND UP</strong>
+        <section id="home" class = "home">
+            <div class="home">
+                <p class="first-txt">
+                    CERAMICS<br>
+                    CRAFTED BY<br>
+                    HAND...
+                </p>
+                <p class="second-txt">
+                    ...FROM THE<br>
+                    GROUND UP
             </div>
         </section>
+
         <section id="about">
-            <h1> ABOUT US </h1>
-            <hr>
-            <img src="./week10webproj_repo/assets/Vase_Dame_2048x2048.jpg" alt = "White vase with beads and white leafy flower in it." height="130" width="80">
-            <img src="./week10webproj_repo/assets/Cylinder_unglazed3_2048x2048.jpg" alt = "White cylinder shaped vase with reeds" height=" 130" width="80">
-            <p1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt <br>
-                ut labore et dolore magna aliqua. Neque laoreet suspendisse interdum consectetur libero id <br>
-                faucibus nisl tincidunt. Facilisis mauris sit amet massa. Senectus et netus et malesuada fames <br>
-                ac turpis egestas maecenas. Odio aenean sed adipiscing diam donec adipiscing tristique <br>
-                risus nec. Sagittis id consectetur purus ut faucibus. Elit duis tristique sollicitudin nibh sit <br>
-                amet commodo.</p1> <br>
-                <br>
-            <p2>Nulla porttitor massa id neque aliquam <br>
-                vestibulum morbi. Facilisi nullam vehicula <br>
-                ipsum a arcu cursus vitae congue. Nam libero <br>
-                justo laoreet sit amet cursus sit amet dictum. <br>
-                Tristique magna sit amet purus gravida quis. <br>
-                Velit euismod in pellentesque massa placerat. <br>
-                In ante metus dictum at tempor commodo. <br>
-                Libero nunc consequat interdum varius sit <br>
-                amet mattis. Egestas sed sed risus pretium <br>
-                quam vulputate dignissim. Diam phasellus <br>
-                vestibulum lorem sed risus. Cursus sit amet <br>
-                dictum sit amet justo donec enim.</p2><br>
-                <br>
-            <p3>Tincidunt praesent semper feugiat nibh sed. <br>
-                Vulputate mi sit amet mauris commodo quis <br>
-                imperdiet massa. Amet tellus cras adipiscing <br>
-                enim eu turpis egestas pretium aenean. <br>
-                Nullam ac tortor vitae purus.</p3>
+            <p class = content_titles> ABOUT US </p>
+            <hr class = content_hr>
+            <div class="about_content">
+                <img class = left_photo src="./assets/Vase_Dame_2048x2048.jpg" alt = "White vase with beads and white leafy flower in it." height="370" width="240">
+                <img class = right_photo src="./assets/Cylinder_unglazed3_2048x2048.jpg" alt = "White cylinder shaped vase with reeds" height="530" width="400">
+                <p1 class="paragraph_one" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqua. Neque laoreet suspendisse interdum consectetur libero id
+                    faucibus nisl tincidunt. Facilisis mauris sit amet massa. Senectus et netus et malesuada fames
+                    ac turpis egestas maecenas. Odio aenean sed adipiscing diam donec adipiscing tristique
+                    risus nec. Sagittis id consectetur purus ut faucibus. Elit duis tristique sollicitudin nibh sit
+                    amet commodo.</p1> <br>
+            
+                <p2 class = paragraph_two >Nulla porttitor massa id neque aliquam
+                    vestibulum morbi. Facilisi nullam vehicula
+                    ipsum a arcu cursus vitae congue. Nam libero
+                    justo laoreet sit amet cursus sit amet dictum.
+                    Tristique magna sit amet purus gravida quis.
+                    Velit euismod in pellentesque massa placerat.
+                    In ante metus dictum at tempor commodo.
+                    Libero nunc consequat interdum varius sit
+                    amet mattis. Egestas sed sed risus pretium
+                    quam vulputate dignissim. Diam phasellus
+                    vestibulum lorem sed risus. Cursus sit amet
+                    dictum sit amet justo donec enim.</p2>
+                    <br>
+                <p3 class =paragraph_three>Tincidunt praesent semper feugiat nibh sed. <br>
+                    Vulputate mi sit amet mauris commodo quis <br>
+                    imperdiet massa. Amet tellus cras adipiscing <br>
+                    enim eu turpis egestas pretium aenean. <br>
+                    Nullam ac tortor vitae purus.</p3>
+            </div>
         </section>
-        <section id="products">
-            <h2>OUR PRODUCTS</h2>
-            <hr>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <section id="product">
+            <p class = content_titles>OUR PRODUCTS</p>
+            <hr class = content_hr>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
             <div class = "product_container">
                 <div class = "product">
-                    <a><img class = product_image src="./week10webproj_repo/assets/tom-crew-7HuTGlUfQSo-unsplash.jpg"></a>
+                    <a><img class = product_image src="./assets/tom-crew-7HuTGlUfQSo-unsplash.jpg"></a>
                     <br>
-                    <strong>MUNDO BOWLS</strong>
-                    <span>$48.00</span>
+                    <p class="product_title" >MUNDO BOWLS</p>
+                    <span class= "product_price">$48.00</span>
                     <hr class = "hr_product">
                     <p>Tincidunt praesent semper feugiat nibh 
                         sed. Vulputate mi sit amet mauris 
                         commodo quis imperdiet massa. Amet 
                         tellus cras adipiscing enim eu turpis 
                         egestas pretium aenean.</p>
-                    <a href = bowl.products.html>LEARN MORE</a>
-                    <span><button type = "button">ADD TO CART</button></span>
+                    <a class = learn_more href = bowl.products.html>LEARN MORE</a>
+                    <span><button class = "add_to_cart_button" type = "button">ADD TO CART</button></span>
                 </div>
                 <div class = "product">
-                    <a><img class = product_image src="./week10webproj_repo/assets/oriento-maVIpNNtmlQ-unsplash.jpg"></a>
+                    <a><img class = product_image src="./assets/oriento-maVIpNNtmlQ-unsplash.jpg"></a>
                     <br>
-                    <strong>NATUREZA VASE</strong>
-                    <span>$37.00</span>
+                    <p class="product_title" >NATUREZA VASE</p>
+                    <span class= "product_price">$37.00</span>
                     <hr class = "hr_product">
                     <p>
                         Tincidunt praesent semper feugiat nibh 
@@ -100,14 +127,14 @@
                         tellus cras adipiscing enim eu turpis 
                         egestas pretium aenean. 
                     </p>
-                    <a href = bowl.products.html>LEARN MORE</a>
-                    <span><button type = "button">ADD TO CART</button></span>
+                    <a class = learn_more href = bowl.products.html>LEARN MORE</a>
+                    <span><button class = "add_to_cart_button" type = "button">ADD TO CART</button></span>
                 </div>
                 <div class = "product">
-                    <a><img class = product_image src="./week10webproj_repo/assets/tom-crew-bgIO-u4GEfI-unsplash.jpg"></a>
+                    <a><img class = product_image src="./assets/tom-crew-bgIO-u4GEfI-unsplash.jpg"></a>
                     <br>
-                    <strong>FEIRA BOWLS</strong>
-                    <span>$29.00</span>
+                    <p class="product_title">FEIRA BOWLS</p>
+                    <span class= "product_price">$29.00</span>
                     <hr class = "hr_product">
                     <p>
                         Tincidunt praesent semper feugiat nibh 
@@ -116,13 +143,125 @@
                         tellus cras adipiscing enim eu turpis 
                         egestas pretium aenean.
                     </p>
-                    <a href = bowl.products.html>LEARN MORE</a>
-                    <span><button type = "button">ADD TO CART</button></span>
+                    <a class = learn_more href = bowl.products.html>LEARN MORE</a>
+                    <span><button class = "add_to_cart_button" type = "button">ADD TO CART</button></span>
+                </div>
+                <div class = "product">
+                    <a><img class = product_image src="./assets/tom-crew-3uwu5K0RtaE-unsplash.jpg"></a>
+                    <br>
+                    <p class="product_title">NATUREZA POTS </p>
+                    <span class= "product_price">$59.00</span>
+                    <hr class = "hr_product">
+                    <p>Tincidunt praesent semper feugiat nibh
+                        sed. Vulputate mi sit amet mauris
+                        commodo quis imperdiet massa. Amet
+                        tellus cras adipiscing enim eu turpis
+                        egestas pretium aenean</p>
+                    <a class = learn_more href = bowl.products.html>LEARN MORE</a>
+                    <span><button class = "add_to_cart_button" type = "button">ADD TO CART</button></span>
+                </div>
+                <div class = "product">
+                    <a><img class = product_image src="./assets/linh-le-a0rE64YJDA4-unsplash.jpg"></a>
+                    <br>
+                    <p class="product_title">PEDRA VASE</p>
+                    <span class= "product_price">$31.00</span>
+                    <hr class = "hr_product">
+                    <p>
+                        Tincidunt praesent semper feugiat nibh 
+                        sed. Vulputate mi sit amet mauris 
+                        ommodo quis imperdiet massa. Amet 
+                        tellus cras adipiscing enim eu turpis 
+                        egestas pretium aenean. 
+                    </p>
+                    <a class = learn_more href = bowl.products.html>LEARN MORE</a>
+                    <span><button class = "add_to_cart_button" type = "button">ADD TO CART</button></span>
+                </div>
+                <div class = "product">
+                    <a><img class = product_image src="./assets/tom-crew-oiZAQvxTcYQ-unsplash.jpg"></a>
+                    <br>
+                    <p class="product_title">VIAJA POTS</p>
+                    <span class= "product_price">$57.00</span>
+                    <hr class = "hr_product">
+                    <p>
+                        Tincidunt praesent semper feugiat nibh 
+                        sed. Vulputate mi sit amet mauris 
+                        commodo quis imperdiet massa. Amet 
+                        tellus cras adipiscing enim eu turpis 
+                        egestas pretium aenean.
+                    </p>
+                    <a class = learn_more href = bowl.products.html>LEARN MORE</a>
+                    <span><button class = "add_to_cart_button" type = "button">ADD TO CART</button></span>
+                </div>                <div class = "product">
+                    <a><img class = product_image src="./assets/tom-crew-YA2E3d7a9Wo-unsplash.jpg"></a>
+                    <br>
+                    <p class="product_title">SERVIÇO PLATES </p>
+                    <span class= "product_price">$35.00</span>
+                    <hr class = "hr_product">
+                    <p>Tincidunt praesent semper feugiat nibh 
+                        sed. Vulputate mi sit amet mauris 
+                        commodo quis imperdiet massa. Amet 
+                        tellus cras adipiscing enim eu turpis 
+                        egestas pretium aenean.</p>
+                    <a class = learn_more href = bowl.products.html>LEARN MORE</a>
+                    <span><button class = "add_to_cart_button" type = "button">ADD TO CART</button></span>
+                </div>
+                <div class = "product">
+                    <a><img class = product_image src="./assets/oriento-l0ah3UBLppo-unsplash.jpg"></a>
+                    <br>
+                    <p class="product_title">CAMPEÃO VASE</p>
+                    <span class= "product_price">$37.00</span>
+                    <hr class = "hr_product">
+                    <p>
+                        Tincidunt praesent semper feugiat nibh 
+                        sed. Vulputate mi sit amet mauris 
+                        ommodo quis imperdiet massa. Amet 
+                        tellus cras adipiscing enim eu turpis 
+                        egestas pretium aenean. 
+                    </p>
+                    <a class = learn_more href = bowl.products.html>LEARN MORE</a>
+                    <span><button class = "add_to_cart_button" type = "button">ADD TO CART</button></span>
+                </div>
+                <div class = "product">
+                    <a><img class = product_image src="./assets/tom-crew-SITGdvztUdg-unsplash.jpg"></a>
+                    <br>
+                    <p class="product_title">TROCA BOWLS</p>
+                    <span class= "product_price">$35.00</span>
+                    <hr class = "hr_product">
+                    <p>
+                        Tincidunt praesent semper feugiat nibh 
+                        sed. Vulputate mi sit amet mauris 
+                        commodo quis imperdiet massa. Amet 
+                        tellus cras adipiscing enim eu turpis 
+                        egestas pretium aenean.
+                    </p>
+                    <a class = learn_more href = bowl.products.html>LEARN MORE</a>
+                    <span><button class = "add_to_cart_button" type = "button">ADD TO CART</button></span>
                 </div>
             </div>
 
         </section>
-
+        <section id="contact">
+            <p class = content_titles >CONTACT US</p>
+            <hr class = content_hr></hr>
+            <label>EMAIL</label>
+            <input type="text">
+            <label>MESSAGE</label>
+            <input type="text">
+            <span><button type="button">SEND</button></span>
+        </section>
     </main>
+    <footer>
+        <div>
+            <h3> <img class = left_icons src="./assets/icons8-youtube-96.png" alt="youtube icon" height="35" width="35"> <img class = left_icons src="./assets/icons8-facebook-96 (1).png" alt="facebook icon" height="35" width="35"></h3>
+            <p class = center_icon> CARA <img src="./assets/icons8-pottery-96 (1).png" alt="white vase icon" height="35" width="35"> CARA </p>
+            <h5> <img class = right_icons src="assets/icons8-twitter-96.png" alt="twitter icon" height="35" width="35"> <img class = right_icons src="./assets/icons8-instagram-96.png" height="35" width="35"></h5>
+        </div>
+        <div>
+            <p>Pretium nibh ipsum consequat nisl vel pretium</p>
+            <p>Amet tellus cras adipiscing enim eu turpis. </p>
+            <p class= copyright>©Copyright 2015 - 2020</p>
+        </div>
+    </footer>
+
 </body>
 </html>
