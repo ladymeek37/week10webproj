@@ -49,11 +49,14 @@ nav li{
     border: 2px solid black;
 }
 .first-txt {
-    top: 50px;
-    left: 20px;
+    position: relative;
+    top: 41px;
+    left: -51px;
     color: white;
     letter-spacing: .25rem;
     font-size: x-large;
+    margin-bottom: 286px;
+    margin-left: 104px;
  }
  .second-txt {
    top: 50px;
@@ -61,6 +64,8 @@ nav li{
    letter-spacing: .25rem;
    font-size: x-large;
    float:right;
+   margin-right: 40px;
+
  }
 
 .home{
@@ -134,12 +139,13 @@ main section{
     letter-spacing: .1rem;
 }
 .product_price{
-    float:right
+    float:right;
+
 }
 .product_image{
 
-    width: 275px;
-    height: 240px;
+    width: 400px;
+    height: 400px;
 }
 
 .hr_product{
@@ -159,28 +165,85 @@ main section{
     color: #bf7631
 }
 
+.contact_section{
+    text-align:center
+}
+.email_box{
+    width: 700px;
+    height: 30px;
+}
+
+.message_box{
+    width: 700px;
+    height: 100px;
+}
+.contact_button{
+    background-color: #bf7631;
+    color: white;
+    margin-right: -658px;
+}
+.email_tag{
+    margin-left: -655px;
+}
+.message_tag{
+    margin-left: -631px;
+}
 footer{
     background-color: #bf7631;
-    padding:10px;
+    padding:0px;
+    width: 100%
 }
  
-.left_icons{
-    float: left;
-    text-align: left;
+.yt_icon{
+    position: relative;
+    left: 455px;
+    bottom: -50px;
 }
 
-.right_icons{
-    float: right;
-    text-align: right;
+.fb_icon{
+    position: relative;
+    left: 462px;
+    top: 50px;
+}
 
+.ig_icon{
+    position: relative;
+    left: 870px;
+    bottom: 27px;
+}
+
+.t_icon{
+    position: relative;
+    left: 870px;
+    bottom: 27px;
 }
 
 .center_icon{
     float: center;
     text-align: center;
+    letter-spacing: .25rem;
+    font-size: x-large;
 }
 
 .copyright{
-    text-align:center
+    text-align:right;
+    font-size: x-small;
+    position: relative;
+    top: -52px;
+    right: 30px
     
+}
+
+.left_copyright_text{
+    font-size: x-small;
+    position: relative;
+    top: -26px;
+    right: -460px;
+}
+
+.right_copyright_text{
+    font-size: x-small;
+    position: relative;
+    top: -38px;
+    right: -756px;
 }
